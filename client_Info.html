@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div id="client_info_form">
+        <div class='fieldset'>
+          <legend>Enter Client Information</legend>
+          <form>
+            <div class="equipment_info">
+              <h2>
+                  Equipment Information
+              </h2>
+              <div class="row">
+                <label>Client</label>
+                <select>
+                  <option value="Cli-001">Client 1</option>
+                  <option value="Cli-002">Client 2</option>
+                  <option value="Cli-003">Client 3</option>
+                  <option value="Cli-004">Client 4</option>
+              </select><br>
+              </div>
+              <div class='row'>
+                <label>Equipment ID</label>
+                <input type="text" placeholder="Enter Equipment ID" id='firstname'>
+              </div>
+              <div class='row'>
+                <label">Manufacturer</label>
+                <input type="text" placeholder="Enter Manufacturer">
+              </div>
+              <div class='row'>
+                <label>Model Number</label>
+                <input type="text" placeholder="Enter Model Number">
+              </div>
+              <div class='row'>
+                <label>Seriel Number</label>
+                <input type="text" placeholder="Enter Seriel Number"> 
+              </div>
+              <div class="row">
+                <label>Units</label>
+                <select>
+                  <option value="Percentage">%</option>
+                  <option value="DO_1">mg/L</option>
+                  <option value="pH">pH</option>
+                  <option value="Temp_1">°C</option>
+                  <option value="Temp_2">°F</option>
+                  <option value="Press_1">PSI</option>
+                  <option value="Press_2">Bar</option>
+                  <option value="Press_3">N/mm<span>&#178;</span></option>
+                  <option value="Weight_1">g</option>
+                  <option value="Weight_2">kg</option>
+                  <option value="Weight_3">lb</option>
+                  <option value="Weight_4">oz</option>
+                  <option value="Flow_1">G/min</option>
+                  <option value="Flow_2">L/min</option>
+              </select><br>
+              </div>
+            </div>
+            <div class="calibration_info">
+                <div class="row">
+                    <h2>
+                        Calibration Information
+                    </h2>
+                </div>
+                <div class='row'>
+                  <label>Procedure</label>
+                  <select>
+                    <option value="DO-DM">Dissolved Oxygen Direct Simulation</option>
+                    <option value="DO-TS">Dissolved Oxygen Transmitter Simulation</option>
+                    <option value="DO-FS">Dissolved Oxygen Full Simulation</option>
+                    <option value="DO-HT">Dissolved Oxygen Hart Simulation</option>
+                    <option value="O2-DM">Oxygen Direct Simulation</option>
+                    <option value="O2-TS">Oxygen Transmitter Simulation</option>
+                    <option value="O2-FS">Oxygen Full Simulation</option>
+                    <option value="O2-HT">Oxygen Hart Simulation</option>
+                    <option value="pH-DM">pH Direct Simulation</option>
+                    <option value="pH-TS">pH Transmitter Simulation</option>
+                    <option value="pH-FS">pH Full Simulation</option>
+                    <option value="pH-HT">pH Hart Simulation</option>
+                    <option value="TM-DM">Temperature Direct Simulation</option>
+                    <option value="TM-TS">Temperature Transmitter Simulation</option>
+                    <option value="TM-FS">Temperature Full Simulation</option>
+                    <option value="TM-FT">Temperature Hart Simulation</option>
+                    <option value="PS-DM">Pressure Direct Simulation</option>
+                    <option value="PS-TS">Pressure Transmitter Simulation</option>
+                    <option value="PS-FS">Pressure Full Simulation</option>
+                    <option value="PS-HT">Pressure Hart Simulation</option>
+                    <option value="WT-DM">Weight Direct Simulation</option>
+                    <option value="WT-TS">Weight Transmitter Simulation</option>
+                    <option value="WT-FS">Weight Full Simulation</option>
+                    <option value="WT-HT">Weight Hart Simulation</option>
+                    <option value="FL-DM">Flow Direct Simulation</option>
+                    <option value="FL-TS">Flow Transmitter Simulation</option>
+                    <option value="FL-FS">Flow Full Simulation</option>
+                    <option value="FL-HT">Flow Hart Simulation</option>
+                  </select><br>
+                </div>
+                <div class="row">
+                <label>Calibration Points</label>
+                <select>
+                  <option value="CP-001">1</option>
+                  <option value="CP-002">2</option>
+                  <option value="CP-003">3</option>
+                  <option value="CP-004">4</option>
+                  <option value="CP-004">5</option>
+                </select><br>
+              </div>  
+                <div class='row'>
+                  <label">Equipment ID</label>
+                  <select>
+                    <option value="CEQ-1">Proccess Calibrator</option>
+                    <option value="CEQ-2">Temperature Bath</option>
+                    <option value="CEQ-3">Pressure Simulator</option>
+                  </select><br>
+                </div>
+            </div>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+
+    
+</body>
+</html>
