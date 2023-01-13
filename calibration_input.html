@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles1.css">
+</head>
+<body>
+
+    <div id="client_info_form">
+        <div class='fieldset'>
+          <legend>Enter Calibration Information</legend>
+          <form>
+            <table>
+                <tr>
+                    <th>Entry</th>
+                    <th>Nominal Value</th>
+                    <th>As Found</th>
+                    <th>As Left</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter Nominal Value 1" id='firstname'>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter As Found Value 1" id='firstname'>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter Nominal Value 1" id='firstname'>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter Nominal Value 2" id='firstname'>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter As Found Value 2" id='firstname'>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter Nominal Value 2" id='firstname'>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter Nominal Value 3" id='firstname'>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter As Found Value 3" id='firstname'>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='row'>
+                            <input type="text" placeholder="Enter Nominal Value 3" id='firstname'>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class='row'>
+                            <label for="start">Calibration Date:</label>
+                            <input type="date" id="calibration_date" name="calibration_date"
+                                value="yyyy-mm-dd"
+                                min="2023-01-01" max="2100-12-31">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="3">
+                        <div class='row'>
+                            <label for="Comments">Comments:</label>
+                            <textarea name="comments" id="comments" rows="7" cols="90" placeholder="comments..">
+                            </textarea>
+                        </div>
+                    </td>
+                </tr>
+              </table>
+            <input type="submit" value="Generate Report">
+          </form>
+        </div>
+      </div>
+
+</body>
+</html>

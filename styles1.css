@@ -6,7 +6,7 @@ body{
 
 #client_info_form {
   font-family:'Open Sans Condensed', sans-serif;
-  width: 400px;
+  width: 800px;
   min-width:250px;
   margin: 20px auto;
   position: relative;
@@ -72,7 +72,6 @@ margin-left:5px;
   transition:background-color .5s ease;
 }
 
-#calibration_date 
 /*  
   padding
 */
@@ -154,9 +153,4 @@ font-size:12px;
 #calibration_date {
   height: 30px;
   width: 110px;
-  margin 10px;
-}
-
-#comments {
-  width: 400 px;
 }
